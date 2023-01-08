@@ -1,5 +1,5 @@
 <?php
-    
+
 use App\Http\Controllers\AdminController;
 use Illuminate\Support\Facades\Route;
 
@@ -57,7 +57,7 @@ Route:: post('/get_suggestion', 'SearchController@show_suggestion');
 // admin dashboard
 Route::get('/admin', 'AdminController@index');
 Route::get('/show_dashboard', 'AdminController@showDashBoard');
-Route::post('/admin_dashboard','AdminController@dashboard'); 
+Route::post('/admin_dashboard','AdminController@dashboard');
 Route::get('/logout', 'AdminController@logout');
 
 // admin category
